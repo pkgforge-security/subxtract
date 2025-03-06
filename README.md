@@ -12,12 +12,13 @@ soar add 'subxtract#github.com.pkgforge-security.subxtract'
 ### 🧰 Usage
 ```mathematica
 ❯ subxtract --help
-➼ Usage: subxtract -f </path/to/domain/urls.txt> <opts>
-        : subxtract "https://a.b.c.example.com.np" <opts>
-STDIN   : cat </path/to/domain/urls.txt> | subxtract <opts>
-          echo "https://a.b.c.example.com.np" | subxtract <opts>
+Public-Suffix based TLDs (Top-Level-Domains) & Root Domain Extractor
+
+Usage:
+  subxtract [flags]
+
 Flags:
-  -c, --concurrency int     Limit the number of concurrent goroutines (default 50)
+  -c, --concurrency int     Limit the number of concurrent goroutines (Higher CPU/RAM Usage) (default 1000)
   -d, --domains             Print the root domain and suffix combined
   -f, --file string         Input file containing URLs|Domains (one per line)
   -h, --help                help for subxtract
