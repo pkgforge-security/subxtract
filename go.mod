@@ -1,10 +1,11 @@
 module github.com/pkgforge-security/subxtract
 
 go 1.24.1
+
 require (
 	github.com/elliotwutingfeng/go-fasttld v0.4.4
 	github.com/fatih/color v1.18.0
-	github.com/spf13/cobra v1.9.1
+	github.com/spf13/cobra v1.10.2
 )
 
 require (
@@ -14,7 +15,7 @@ require (
 	github.com/mattn/go-colorable v0.1.13 // indirect
 	github.com/mattn/go-isatty v0.0.20 // indirect
 	github.com/spf13/afero v1.9.5 // indirect
-	github.com/spf13/pflag v1.0.6 // indirect
+	github.com/spf13/pflag v1.0.9 // indirect
 	github.com/tidwall/hashmap v1.8.0 // indirect
 	github.com/zeebo/xxh3 v1.0.2 // indirect
 	golang.org/x/net v0.36.0 // indirect
